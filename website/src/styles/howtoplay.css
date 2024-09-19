@@ -1,0 +1,33 @@
+.container_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0px 200px 0px;
+}
+
+.how_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.how_container  h3{
+    color: #ffff;
+    font-weight: 700;
+    line-height: 54px;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.how_container span{
+    color: #ffff;
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 22px;
+    margin-bottom: 70px;
+}
+
+.how_container_img{
+    padding: 5px;
+}

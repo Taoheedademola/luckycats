@@ -1,0 +1,31 @@
+.header_container {
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid #81744780;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header_wrapper {
+    width: 1175px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_links {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header_links a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #BCB69F;
+}

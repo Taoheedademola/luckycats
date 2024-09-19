@@ -1,0 +1,47 @@
+.mainContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 142px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1090px;
+}
+
+.about h3{
+    color: #fff;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.about p{
+    text-align: center;
+    color: #BCB69F;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.about p span{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about  button{
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #F3CB34;
+    gap: 10px;
+    margin-top: 60px;
+    cursor: pointer;
+    outline: none;
+}
